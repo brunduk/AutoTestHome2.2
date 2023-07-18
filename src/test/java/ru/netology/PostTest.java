@@ -20,7 +20,7 @@ public class PostTest {
 // Проверки
                 .then().log().all()
                 .statusCode(200)
-                .body("data", equalTo("sss data"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
